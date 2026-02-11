@@ -19,3 +19,9 @@ Exec={your Path to}/screenshot2clipboardviaocr
 in `~/.config/lxqt/globalkeyshortcuts.conf`
 
 if LXQt is your preferrred desktop environment.
+
+The scripts require maim, xclip, and (for the OCR variant) tesseract to be installed.
+
+```shell
+sudo pacman -Syu maim xclip tesseract tesseract-data-eng tesseract-data-deu
+```
